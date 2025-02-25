@@ -9,7 +9,7 @@ import {
   setUser,
 } from "../redux/userSlice";
 import Sidebar from "../components/Sidebar";
-import logo from "../assets/image.png";
+import logo from "../assets/logo.png";
 import io from "socket.io-client";
 
 const Home = () => {
@@ -81,7 +81,7 @@ const Home = () => {
         }`}
       >
         <div>
-          <img src={logo} width={130} alt="logo" />
+          <img src={logo} width={150} alt="logo" />
         </div>
         <p className="text-lg mt-2 text-slate-500">
           Select user to send message
